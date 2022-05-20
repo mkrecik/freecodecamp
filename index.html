@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Survey Form</title>
+  <meta charset="utf-8"/>
+  <link rel="stylsheet" type="text/css" href="styles.css"/>
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Submit to support our research</p>
+
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Name: 
+        <input id="name"; name="name" type="text" placeholder="Name" required/>
+      </label>
+      <label id="email-label">E-mail: 
+         <input id="email"; name="email" type="email" placeholder="E-mail" required/>
+      </label>
+      <label id="number-label">Age: <input id="number" name="age" type="number" min="14" max="130" placeholder="Age"/>
+      </label>
+      <label>Do you support the war against climate change?<br></label>
+        <label class="climate"><input name="climate" value="yes" type="radio"/> Yes</label>
+        <label class="climate"><input name="climate" value="no" type="radio"/> No</label>
+      </label>
+      <label>Where did you find about the survey?
+    </fieldset>
+    <fieldset>
+        <select id="dropdown">
+          <option>The Internet</option>
+          <option> A friend</option>
+          <option>Newspaper</option>
+          <option>Other</option>
+          </select></label>
+    </fieldset>
+    <fieldset>
+      <label id="actions">What are the actions you take in order to fight the climate change?
+        <label><input name="actions" type="checkbox" value="plastic/> avoid plastic</label>
+        <label><input name="actions" type="checkbox" value="water"/> conserve water</label>
+        <label><input name="actions" type="checkbox" value="transport"/> use public transport</label>
+        <label><input name="actions" type="checkbox" value="rubbish"/> segregate rubbish</label>
+      </label>
+    </fieldset>
+    <fieldset>
+        <label>Comments:<br>
+        <textarea></textarea>
+      </label>
+    </fieldset>
+    <button id="submit" type="submit">Submit</button>
+    </fieldset>
+  </form>
+
+</body>
+</html>
