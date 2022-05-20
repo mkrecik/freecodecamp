@@ -1,0 +1,67 @@
+input, label, textarea{
+  display:block;
+  width:100%;
+}
+fieldset{
+  border:none;
+}
+body{
+  font-family:Calibri, sans-serif;
+  color:beige;        
+  background-color:rgb(84,12,33);
+  
+}
+h1,p{
+  text-align:center
+}
+label{
+  margin:10px 0;
+}
+input{
+  text-align:center;
+  background-color:rgb(240,225,200);
+}
+textarea{
+background-color:rgb(240,225,200);
+}
+}
+
+#title{
+  text-shadow: 2px 2px black;
+}
+#description{
+  margin-top:0;
+  font-style:italic;
+}
+#survey-form{
+  border: 3px double black;
+  padding: 10px;
+  text-align:center;
+}
+label.climate input,label#actions input{
+  text-align:left;
+  vertical-align:middle;
+  width:unset;
+  display:inline;
+}
+#number{
+  width:20%;
+  margin-bottom:30px;
+  
+}
+#email-label,#name-label{
+  margin: 10px 0;
+}
+#submit{
+  font-size:17px;
+  background-color:rgb(145,78,78);
+  padding:4px 13px;
+  border: 1px solid black;
+  
+}
+#dropdown{
+  background-color:rgb(145,78,78);
+  color:white;
+  border: 1px solid black;
+  font-size:1em;
+}
